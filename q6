@@ -1,0 +1,11 @@
+1) Does increment_int_a change a?
+No. After the call, a is still 32. This is because ints are immutable, thus someval += 1 makes a new int and only rebinds the local name.
+
+2) Does increment_int_b change b?
+Yes. After the call, b becomes {'32': 1}. As dicts are mutable so someval['32'] += 1  updates the same dict in place.
+
+3) Why are the results different?
+Python passes references. In increment_int_a,  we rebind a local variable to a new object.
+In increment_int_b we mutate the shared object itself, so the caller sees the change.
+.
+

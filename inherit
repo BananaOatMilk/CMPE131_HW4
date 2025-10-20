@@ -1,0 +1,2 @@
+One reason is that it can make a program easier to write by being able to reuse code for children classes, making a program cleaner and easier to maintain.
+ Another reason is that inheritance allows for polymorphism. This lets children classes override methods to allow functions to work differently for different children classes.   
