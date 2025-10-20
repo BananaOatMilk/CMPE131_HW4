@@ -1,5 +1,4 @@
 class Base:
-    """Common state/behavior for drawable shapes."""
     def __init__(self, x, y, size):  # store position (x, y) and a generic size
         self.x = x
         self.y = y
