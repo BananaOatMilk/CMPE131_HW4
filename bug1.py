@@ -8,9 +8,9 @@ class Base:
     def shape(self): # default description 
         return "This is a shape"
 
-class Circle():
-    def __init__(self, x, y, size):
-        super().__init__(x, y, size)
+class Circle(Base):                       
+    def __init__(self, x, y, size):       
+        super().__init__(x, y, size) 
 
     def shape(self):
         return "This is a circle"
